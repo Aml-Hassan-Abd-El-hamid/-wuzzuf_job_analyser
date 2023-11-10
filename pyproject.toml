@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wuzzuf"
+version = "0.1.0"
+description = "wuzzuf scrapper and analyser"
+authors = ["Aml-Hassan-Abd-El-hamid <aml.hassan.esmil@gmail.com>"]
+license = "\"Apache-2.0\""
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+Scrapy = "^2.11.0"
+pandas = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
