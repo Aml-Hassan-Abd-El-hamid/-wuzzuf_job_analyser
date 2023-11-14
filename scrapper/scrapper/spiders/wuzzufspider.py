@@ -14,5 +14,5 @@ class WuzzufspiderSpider(scrapy.Spider):
             yield{
                     'name':jobs_names[i],
                     'job_location' :jobs_locations[i],
-                    'job_type' : jobs_types[i],
+                    'job_type' : str(jobs_types[i]).split("}")[-1],
                 }
