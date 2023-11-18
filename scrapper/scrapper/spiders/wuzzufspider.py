@@ -16,3 +16,7 @@ class WuzzufspiderSpider(scrapy.Spider):
                     'job_location' :jobs_locations[i],
                     'job_type' : str(jobs_types[i]).split("}")[-1],
                 }
+            next_page = response.css('[rel="next"] ::attr(href)').get()
+            if next_page is not None:
+                next_page_url = next_page
+                yield response.follow(next_page_url, callback=self.parse)
