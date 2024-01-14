@@ -18,3 +18,5 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
     ```
     * Run `Poetry shell` in your terminal to activate the environment. 
     
+### Useful tutriols:
+- [Scrapy Course from freeCodeCamp](https://www.youtube.com/watch?v=mBoX_JCKZTE&t=4599s)
