@@ -20,8 +20,7 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
     eval "$(pyenv virtualenv-init -)"
    ```
     
-    * Install **poetry** at the system level: https://python-poetry.org/docs/ --> running curl -sSL https://install.python-poetry.org | python3 -(dont' forget to add 
-    to your .bashrc or equivalent)
+    * Install **poetry** at the system level following the instructions from here: https://python-poetry.org/docs/
 
     * Then install a version of Python of your choice via pyenv, eg: pyenv install 3.10.6
 
