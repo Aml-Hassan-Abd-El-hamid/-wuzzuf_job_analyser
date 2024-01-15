@@ -19,10 +19,10 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
     ```
     * You now can run `poetry shell` in your terminal to activate the environment. 
 
-**To run the wuzzuf scrapper and save the scrapped data into a file do the following after setting up your enviornment:**<br>
+**To run the Wuzzuf scrapper and save the scrapped data into a file do the following after setting up your enviornment:**<br>
    * In the main folder of the project run the command `poetry shell` in your terminal to activate the environment.
    * Run the command `cd scrapper/scrapper/spiders` in your terminal to get the folder of the spiders.
-   * Run the command `scrapy crawl wuzzufspider -o your_file_name.csv` in your terminal.
+   * Run the command `scrapy crawl wuzzufspider -a group="your_wuzzuf_search_link" -o your_file_name.csv` in your terminal.
 
 **To run the scrappy shell:**
    * In the main folder of the project run the command `poetry shell` in your terminal to activate the environment.
