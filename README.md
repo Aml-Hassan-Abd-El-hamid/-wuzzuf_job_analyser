@@ -30,5 +30,6 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
    * Run the command `scrapy shell` in your terminal to start the scrappy shell.
    * you can run the command `fetch('the website name')` in your terminal.
      
-### Useful tutriols:
+### Useful tutorials:
 - [Scrapy Course from freeCodeCamp](https://www.youtube.com/watch?v=mBoX_JCKZTE&t=4599s)
+- [tutorialspoint scrappy tutorial](https://www.tutorialspoint.com/scrapy/index.htm)
