@@ -17,12 +17,14 @@ class WuzzufspiderSpider(scrapy.Spider):
         jobs_types=response.css('div.css-1lh32fc').xpath('string()').getall()
         company_names=response.css("a.css-17s97q8::text").getall()
         company_urls=response.css('h2.css-m604qf a')
+        job_urls=response.css('a.css-o171kl ::attr(href)').getall()
         for i in range(len(jobs_names)):
             yield{
                     'name':jobs_names[i],
                     'job_location' :jobs_locations[i],
                     'job_type' : str(jobs_types[i]).split("}")[-1],
                     'company_name': company_names[i],
+                    'job_url': job_urls[i],
                     'company_url': company_urls[i].attrib['href']
                 }
             next_page = response.css('[rel="next"] ::attr(href)').get()
