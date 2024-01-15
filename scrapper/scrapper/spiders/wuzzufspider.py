@@ -16,8 +16,9 @@ class WuzzufspiderSpider(scrapy.Spider):
         jobs_locations= response.css('span.css-5wys0k').xpath('string()').getall()
         jobs_types=response.css('div.css-1lh32fc').xpath('string()').getall()
         company_names=response.css("a.css-17s97q8::text").getall()
+        job_urls=response.css('h2.css-m604qf a::attr(href)').getall()
         company_urls=response.css('h2.css-m604qf a')
-        job_urls=response.css('a.css-o171kl ::attr(href)').getall()
+        
         for i in range(len(jobs_names)):
             yield{
                     'name':jobs_names[i],
