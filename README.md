@@ -1,4 +1,5 @@
 # Job Analyser: Exploring the Data and AI Job Market in Egypt 
+![38413-Job-Analyzer](https://github.com/Aml-Hassan-Abd-El-hamid/-wuzzuf_job_analyser/assets/66205928/ecbf59ae-a813-425d-a6f1-967d69a8d952)
 
 ### Problem Statment:
 
