@@ -35,12 +35,12 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
 
    Should extract the following features:
 
-   - [ ]  Job Name
-   - [ ]  Company Name
-   - [ ]  Job Location
-   - [ ]  Job Type
-   - [ ]  Job and Company URLs
-   - [ ]  Job description body
+   - [x]  Job Name
+   - [x]  Company Name
+   - [x]  Job Location
+   - [x]  Job Type
+   - [x]  Job and Company URLs
+   - [x]  Job description body
    - [ ]  Job Skills
    - [ ]  Experience Needed for the job
    - [ ]  Job Requirements body if there<br>
