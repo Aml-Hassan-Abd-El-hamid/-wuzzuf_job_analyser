@@ -17,7 +17,7 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
     ```
     poetry install
     ```
-    * You now can run `poetry shell` in your terminal to activate the environment. 
+    * You can now run `poetry shell` in your terminal to activate the environment. 
 
 **To run the Wuzzuf scrapper and save the scrapped data into a file do the following after setting up your enviornment:**<br>
    * In the main folder of the project run the command `poetry shell` in your terminal to activate the environment.
@@ -29,7 +29,30 @@ Navigating the Data and Artificial Intelligence (AI) job market in Egypt can be 
    * Run the command `cd scrapper/scrapper/spiders` in your terminal to get the folder of the spiders.
    * Run the command `scrapy shell` in your terminal to start the scrappy shell.
    * you can run the command `fetch('the website name')` in your terminal.
-     
+### ToDo List of the project:
+
+- [ ] Wuzzuf scrapper<br>
+
+   Should extract the following features:
+
+   - [ ]  Job Name
+   - [ ]  Company Name
+   - [ ]  Job Location
+   - [ ]  Job Type
+   - [ ]  Job and Company URLs
+   - [ ]  Job description body
+   - [ ]  Job Skills
+   - [ ]  Experience Needed for the job
+   - [ ]  Job Requirements body if there<br>
+   
+   Cleaning:
+
+   - [ ]  Job description body and Job Requirements body -if there's one- should be merged and used to extract as much info as possible from them.
+   - [ ]  Job Skills
+- [ ] The job analyzer<br>
+- [ ] LinkedIn Scrapper<br>
+- [ ] Deployment <br>
+
 ### Useful tutorials:
 - [Scrapy Course from freeCodeCamp](https://www.youtube.com/watch?v=mBoX_JCKZTE&t=4599s)
 - [tutorialspoint scrappy tutorial](https://www.tutorialspoint.com/scrapy/index.htm)
